@@ -1,0 +1,14 @@
+Backlog item    												| Time 	
+As a user I can remove a directory by using "rm".									| 1 day
+As a user I can create any number of directories by using the mkdir command with a number of paths.				| 1 day
+As a user I now can view the contents of all sub-directories of any depth of a directory by using "ls -R" plus a path.			| 2 days
+As a user I can move a old file or directory to a new path with "mv".							| 1 day
+As a user I can copy a file or directory to a path with "cp".								| 2 days
+As a user I now can view the contents of some paths with "cat". It should not be interrupted by invalid paths.			| 2 days
+As a user I can download file from the internet to the working directory with "curl" plus an URL.				| 2 days
+As a user I can view the manual of only one command with "man".							| 1 day
+As a user I can save my current work state by using "saveJShell" and save the state to a file at a specified path.			| 2 days
+As a user I can load my work state from a file by using "loadJShell" provided that this is the first command executed on start.		| 1 day
+As a user I can search for a file or directory in a path with "search"							| 1 day
+As a user I can view the entire file system as a tree by using "tree" command.						| 2 days
+As a user I can wrap the output of any command into a file and save the file at a given location.				| 1 day

@@ -1,0 +1,12 @@
+Class name: FolderElement
+
+Parent Class: None
+
+Subclasses: 
+* File
+* Directory
+
+Responsibilities: 
+* Compare whether a folder element is equal to another object.
+
+Collaborators: None

@@ -1,0 +1,11 @@
+Class name: CommLoadJShell
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Load the save file and re-establish the state of the file system.
+
+Collaborators: 
+* TODO

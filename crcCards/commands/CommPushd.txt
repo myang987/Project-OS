@@ -1,0 +1,15 @@
+Class name: CommPushd
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+*Saves the current working directory by pushing onto directory stack.
+*Changes the new current working directory to DIR.
+
+Collaborators:
+* CommCd
+* Controller
+* Path
+* PathInterpreter

@@ -1,0 +1,12 @@
+Class name: CommTree
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Draw a tree for the entire file system, showing the relationship between files and directories.
+
+Collaborators: 
+* Directory
+* Controller

@@ -1,0 +1,11 @@
+Class name: FileEditor
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+* Modify the contents of a file.
+
+Collaborators:
+* File

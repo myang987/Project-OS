@@ -1,0 +1,11 @@
+Class name: JShell
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+* Handle various logistics when entering and exiting the whole program.
+
+Collaborators:
+* Controller

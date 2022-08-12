@@ -1,0 +1,21 @@
+Class name: Controller
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+* Main loop.
+* Receive and decide what to do with the parsed input from InputParser.
+* Execute the command from the parsed input.
+* Setup root directory.
+* Keep track of the working directory.
+* Handle the return value from each call.
+
+Collaborators: 
+* Commands
+* InputParser
+* InputReader
+* ErrorHandler
+* FileManager
+* Printer

@@ -1,0 +1,12 @@
+Class name: CommCurl
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Retrive a file from a given url and save it to the working directory.
+
+Collaborators: 
+* Controller
+* Directory

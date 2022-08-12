@@ -1,0 +1,10 @@
+Class name: ResourceBusyException
+
+Parent Class: JShellException
+
+Subclasses: None
+
+Responsibilities: 
+* Thrown when trying to move or delete a parent directory of the working directory.
+
+Collaborators: None

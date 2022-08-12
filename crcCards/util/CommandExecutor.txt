@@ -1,0 +1,15 @@
+Class name: CommandExecutor
+
+Parent Class: IAcceptsFlags
+
+Subclasses: None
+
+Responsibilities: 
+* Invoke relavent command.
+* Handle the command return value.
+
+Collaborators: 
+* Printer
+* AbstrctCommand
+* ErrorHandler
+* Controller

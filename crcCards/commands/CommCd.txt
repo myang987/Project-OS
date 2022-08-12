@@ -1,0 +1,16 @@
+Class name: CommCd
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+*If DIR is "..", then return the parent directory to Commands class.
+*If DIR is ".", then return the current directory to Commands class.
+*Else, Pass DIR to PathParser.
+*Return the new path to Commands class.
+
+Collaborators: 
+* PathInterpreter
+* Path
+* Controller

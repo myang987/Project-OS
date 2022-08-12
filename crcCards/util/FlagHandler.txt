@@ -1,0 +1,12 @@
+Class name: FlagHandler
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+* Process arguments and fill flags with values.
+
+Collaborators: 
+* Message
+* Flag

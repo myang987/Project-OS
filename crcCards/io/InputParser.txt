@@ -1,0 +1,12 @@
+Class name: InputParser
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+*Parse the input read from the InputReader.
+*Pass the parsed input to the Controller class.
+
+Collaborators:
+* Message

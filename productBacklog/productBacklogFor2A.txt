@@ -1,0 +1,26 @@
+Backlog item    												| Time 	
+As a user, I want to give commands by typing in a prompt line.								| 2 Days
+As a user, I can create files, such that they have the ability to store one string. 						| 2 Day
+As a user, I should be able to attach arguments to my commands.							| 2 Days
+As a user, I should be able to receive proper error message when the commands are invalid.					| *
+In order to manage the files, as a user I should be able to create and manage directories that contain other files and directories.	| 1 Day
+In order to specify a location in the system, as a user I can type either reletive path or full path.				| 2 Days 
+In order to quit the program, as a user, I can type "exit". 								| 0 Day
+As a user, I can create 2 directories using the command "mkdir" with two specified paths.					| 2 Day 
+As a user, I can change directory with "cd" and a path following it. 							| 2 Day 
+As a user, I can check the content of a directory with "ls" followed by its path.						| 3 Days 
+As a user, I can check whether a file exists by typing "ls" and the path to it.						| 3 Days 
+As a user, I can know my current directory with "pwd".								| 1 Day 
+As a user, I can put my current working directory onto a stack and jump to another with "pushd" followed by the target path. 	| 3 Days
+As a user, I can give up my current working directory and return to the last directory on the stack with "popd".			| ^
+As a user, I should be able to view the history of my actions with "history". 						| 1 Days
+As a user, I should be able to view a limited number of entries of history by appending one number to the "history" command.	| ^
+As a user, I can view the content of a list of files with "cat" followed by a list of paths seperated by spaces.			| 2 Days
+As a user, I can let the console print a string with "echo".								| 0 Day
+As a user, I can write a string to a file with "echo >" and a filepath, overwriting any existing file and create the file if it doesn't exist.	| 3 Days
+As a user, I can append a string to a file with "echo >>" and a filepath. Create the file if it doesn't exist.				| ^
+As a user, I can see the manual of a list of commands using "man" followed by a list of commands' names.			| 2 Days
+
+
+^: These tasks are combined with the previous one.
+*: These tasks are only meaningful with other backlog items.

@@ -1,0 +1,12 @@
+Class name: InputReader
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+*Read user input.
+
+Collaborators:
+* InputParser
+* Printer

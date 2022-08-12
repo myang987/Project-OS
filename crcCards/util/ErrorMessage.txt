@@ -1,0 +1,11 @@
+Class name: ErrorMessage
+
+Parent Class: Message
+
+Subclasses: None
+
+Responsibilities: 
+* Indicate that an error has occurred.
+* Keep track whether the error has been resolved.
+
+Collaborators: None

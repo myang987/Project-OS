@@ -1,0 +1,78 @@
+//Sprint # Backlog.  
+October 28 to November 3
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) In order to quit the program, as a user, I can type "exit". 
+b) As a user, I can create 2 directories using the command "mkdir" with two specified paths.					| 2 Day 
+c) As a user, I can change directory with "cd" and a path following it. 							| 2 Day 
+d) As a user, I can check the content of a directory with "ls" followed by its path.						| 3 Days 
+e) As a user, I can check whether a file exists by typing "ls" and the path to it.						| 3 Days 
+f) As a user, I can know my current directory with "pwd".								| 1 Day 
+g) As a user, I can put my current working directory onto a stack and jump to another with "pushd" followed by the target path. 	| 3 Days
+h) As a user, I can give up my current working directory and return to the last directory on the stack with "popd".			| ^
+i) As a user, I should be able to view the history of my actions with "history". 						| 1 Days
+j) As a user, I should be able to view a limited number of entries of history by appending one number to the "history" command.	| ^
+k) As a user, I can view the content of a list of files with "cat" followed by a list of paths seperated by spaces.			| 2 Days
+m) As a user, I can let the console print a string with "echo".								| 0 Day
+n) As a user, I can write a string to a file with "echo >" and a filepath, overwriting any existing file and create the file if it doesn't exist.	| 3 Days
+o) As a user, I can append a string to a file with "echo >>" and a filepath. Create the file if it doesn't exist.				| ^
+p) As a user, I can see the manual of a list of commands using "man" followed by a list of commands' names.			| 2 Days
+
+
+Specific tasks to be accomplished:
+a-1. (CommExit) Implement CommExit class.
+b-1. (?) Design and implement a new class that can turn a path into a file or directory reference.
+b-2. (CommMkdir) Implement CommMkdir class.
+c-1. (CommCd) Implement CommCd class.
+d-1. (CommLs) Implement the main function of "ls" (list the contents of the working directory).
+d-2. (CommLs) After b-1 is finished, implement the third function of this class (list the contents of a directory of a given path).
+e-1. (CommLs) After b-1 is finished, implement the second function of this class (print the contents of a file of a given path).
+f-1. (Controller) Let the Controller class contains a field that stores the working directory.
+f-2. (CommPwd) Implement CommPwd class.
+g-1. (Controller / CommPushd / CommPopd) Setup a stack for the latter two classes in the setup phase of Controller. 
+g-2. (CommPushd) After c-1 & g-1 is finished, implement CommPushd class.
+h-1. (CommPopd) After c-1 & g-1 is finished, implement CommPopd class. 
+i-1. (Controller / InputReader / CommHistory) Setup a new list of Strings that stores the input history.
+i-2. (InputReader) InputReader should maintain the said list in i-1. It should format the input to a outputHandler friendly style before inserting.
+i-3. (CommHistory) After i-1 and i-2 is finished, implement CommHistory class.
+j-1. (CommHistory) After i-1 and i-2 is finished, implement CommHistory class so that it only prints limited number of history.
+k-1. (CommCat) After b-1 is finished, implement CommCat. 
+m-1. (CommEcho) Implement the first function of CommEcho class (print stuffs into the shell directly).
+n-1 / o-1. (CommEcho) After b-1 is finished, implement the second and third function of CommEcho (create / modify files with the given string and path).
+p-1. (Commands) Create a new method that returns the manual of each Command.
+p-2. (CommMan) Implement the CommMan class.
+
+These tasks are assigned as follows:
+
+User: Yiyang Zhou
+Tasks:
+b-1. (?) Design and implement a new class that can turn a path into a file or directory reference.
+b-2. (CommMkdir) Implement CommMkdir class.
+d-2. (CommLs) After b-1 is finished, implement the third function of this class (list the contents of a directory of a given path).
+e-1. (CommLs) After b-1 is finished, implement the second function of this class (print the contents of a file of a given path).
+k-1. (CommCat) After b-1 is finished, implement CommCat. 
+m-1. (CommEcho) Implement the first function of CommEcho class (print stuffs into the shell directly).
+n-1 / o-1. (CommEcho) After b-1 is finished, implement the second and third function of CommEcho (create / modify files with the given string and path).
+
+
+User: Kuang Ren
+Tasks: 
+c-1. (CommCd) Implement CommCd class.
+d-1. (CommLs) Implement the main function of "ls" (list the contents of the working directory).
+f-1. (Controller) Let the Controller class contains a field that stores the working directory.
+f-2. (CommPwd) Implement CommPwd class.
+g-1. (Controller / CommPushd / CommPopd) Setup a stack for the latter two classes in the setup phase of Controller. 
+g-2. (CommPushd) After c-1 & g-1 is finished, implement CommPushd class.
+h-1. (CommPopd) After c-1 & g-1 is finished, implement CommPopd class. 
+
+
+User: Lingfeng Yang
+Tasks: 
+a-1. (CommExit) Implement CommExit class.
+i-1. (Controller / InputReader / CommHistory) Setup a new list of Strings that stores the input history.
+i-2. (InputReader) InputReader should maintain the said list in i-1. It should format the input to a outputHandler friendly style before inserting.
+i-3. (CommHistory) After i-1 and i-2 is finished, implement CommHistory class.
+j-1. (CommHistory) After i-1 and i-2 is finished, implement CommHistory class so that it only prints limited number of history.
+p-1. (Commands) Create a new method that returns the manual of each Command.
+p-2. (CommMan) Implement the CommMan class.

@@ -1,0 +1,15 @@
+Class name: JShellException
+
+Parent Class: Exception
+
+Subclasses: 
+* DuplicateException
+* FileNotExistException
+* IllegalNameException
+* NotADirectoryException
+* WrongSyntaxException
+
+Responsibilities: 
+* None
+
+Collaborators: None

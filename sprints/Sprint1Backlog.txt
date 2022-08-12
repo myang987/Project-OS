@@ -1,0 +1,33 @@
+//Sprint 1 Backlog.  
+October 21st to October 28th
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to give commands by typing in a prompt line.
+b) As a user, I can create files, such that they have the ability to store one string. 
+c) As a user, I should be able to attach arguments to my commands.
+d) As a user, I should be able to receive proper error message when the commands are invalid.
+e) In order to manage the files, as a user I should be able to create and manage directories that contain other files and directories.
+f) In order to specify a location in the system, as a user I can type either reletive path or full path.
+
+Specific tasks to be accomplished:
+a-1. (Message) Implement Message class. 
+a-2. (InputReader) Implement InputReader class.
+a-3. (Printer) Implement Printer class.
+a-4. (Controller) Implement the main loop of the Controller class. It should prompt the user to key in their command after each command is resolved.
+b-1. (FolderElement) Create FolderElement class.
+b-2. (File) Implement File class and make it extends FolderElement class.
+c-1. (InputParser) Implement InputParser class.
+d-1. (ErrorHandler) Partially implement ErrorHandler class, so that it can print out basic message.
+d-2. (Any) All public methods should throw appropriate exceptions when receive ill arguments.
+e-1. (Directory) Implement Directory class and make it extends FolderElement class.
+f-1. (FileManager) Partially Implement FileManager class, such that it can split plain path string and determine whether it's relative or full path.
+
+
+These tasks are assigned as follows:
+
+User: Yiyang Zhou
+Tasks: a-1, a-2, a-3, a-4, d-1, d-2, e-1
+
+User: Kuang Ren
+Tasks: b-1, b-2, c-1, d-2, f-1

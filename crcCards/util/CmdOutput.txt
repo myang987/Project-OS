@@ -1,0 +1,11 @@
+Class name: CmdOutput
+
+Parent Class: Message
+
+Subclasses: None
+
+Responsibilities: 
+* Hold output messages from command.
+* Hold instructions on how this output should be handle by the output handler.
+
+Collaborators: None

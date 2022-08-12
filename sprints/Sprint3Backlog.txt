@@ -1,0 +1,29 @@
+//Sprint # Backlog.  
+October 28 to November 3
+
+
+User Stories from Product Backlog that we will address in this sprint:
+none
+
+
+Specific tasks to be accomplished:
+a-1. Bug fixing
+b-1. Modify crcCards
+
+These tasks are assigned as follows:
+
+User: Yiyang Zhou
+Tasks:
+a-1. Bug fixing.
+b-1. Modify crcCards
+
+User: Kuang Ren
+Tasks: 
+a-1. Bug fixing.
+b-1. Modify crcCards
+
+
+User: Lingfeng Yang
+Tasks: 
+a-1. Bug fixing.
+b-1. Modify crcCards

@@ -1,0 +1,11 @@
+Class name: Flag
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+* Store a flag key.
+* Store a flag value.
+
+Collaborators: None

@@ -1,0 +1,13 @@
+Class name: IAcceptsFlags
+
+Parent Class: None
+
+Subclasses: 
+* CommandExecutor
+* CommEcho
+* CommLs
+
+Responsibilities: 
+* Generate all possible flags that the implemented class expects to receive.
+
+Collaborators: None

@@ -1,0 +1,11 @@
+Class name: FileNotExistException
+
+Parent Class: JShellException
+
+Subclasses: 
+* None
+
+Responsibilities: 
+* None
+
+Collaborators: None

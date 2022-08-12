@@ -1,0 +1,11 @@
+Class name: Message
+
+Parent Class: None
+
+Subclasses: 
+* CmdOutput
+
+Responsibilities: 
+* Hold information for different part of the program to communicate to each other.
+
+Collaborators: None.

@@ -1,0 +1,15 @@
+Class name: OutputHandler
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+* Print messages to the shell.
+* Redirect command output to a file.
+
+Collaborators: 
+* CmdOutput
+* PathInterpreter
+* Directory
+* File

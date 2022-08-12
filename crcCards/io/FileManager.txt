@@ -1,0 +1,14 @@
+Class name: FileManager
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+* Look at the contents of a directory.
+* Create, modify, or delete a file or directory in the given directory.
+
+Collaborators:
+* Directory
+* FileManager
+* FileEditor

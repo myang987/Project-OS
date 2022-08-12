@@ -1,0 +1,13 @@
+Class name: CommSearch
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Search a given directory and its child directories for a name.
+
+Collaborators: 
+* Path
+* PathInterpreter
+* Directory

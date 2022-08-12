@@ -1,0 +1,13 @@
+Class name: CommCat
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Print out the contents of a list of given files.
+
+Collaborators:
+* PathInterpreter
+* Path
+

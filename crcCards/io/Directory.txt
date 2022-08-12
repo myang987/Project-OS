@@ -1,0 +1,11 @@
+Class name: Directory
+
+Parent Class: FolderElement
+
+Subclasses: None
+
+Responsibilities: 
+* Maintain a list of its contents.
+
+Collaborators:
+* FileManager

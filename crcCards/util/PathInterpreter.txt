@@ -1,0 +1,11 @@
+Class name: PathInterpreter
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+* Find a file or directory in the system using a given path (relative or full).
+
+Collaborators: 
+* Controller

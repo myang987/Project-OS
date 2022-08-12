@@ -1,0 +1,11 @@
+Class name: WrongSyntaxException
+
+Parent Class: JShellException
+
+Subclasses:
+* None
+
+Responsibilities:
+* None
+
+Collaborators: None

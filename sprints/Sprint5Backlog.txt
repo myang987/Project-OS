@@ -1,0 +1,41 @@
+//Sprint 5 Backlog.  (Assignment 2B)
+November 24 to November 30
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a)As a user I now can view the contents of some paths with "cat". It should not be interrupted by invalid paths.			| 2 days
+b)As a user I can download file from the internet to the working directory with "curl" plus an URL.				| 2 days
+c)As a user I can view the manual of only one command with "man".							| 1 day
+d)As a user I can search for a file or directory in a path with "search"							| 1 day
+e)As a user I can view the entire file system as a tree by using "tree" command.						| 2 days
+f)As a user I can wrap the output of any command into a file and save the file at a given location.				| 1 day
+
+
+Specific tasks to be accomplished:
+a-1. (CommCat) Implement CommCat class.
+b-1. (CommCurl) Implement CommCurl class.
+c-1. (CommMan) Implement CommMan class.
+d-1. (CommSearch) Implement CommSearch class.
+e-1. (CommTree) Implement CommTree class.
+f-1. (Controller)For each command that produces STDOUT, redirections can be applied either with > OUTFILE or >> OUTFILE.
+g-1. Finish JUnit test.
+
+These tasks are assigned as follows:
+
+User: Yiyang Zhou
+Tasks:
+b-1. (CommCurl) Implement CommCurl class.
+e-1. (CommTree) Implement CommTree class.
+g-1. Finish JUnit test.
+
+User: Kuang Ren
+Tasks: 
+a-1. (CommCat) Implement CommCat class.
+f-1. (Controller)For each command that produces STDOUT, redirections can be applied either with > OUTFILE or >> OUTFILE.
+g-1. Finish JUnit test.
+
+User: Lingfeng Yang
+Tasks: 
+c-1. (CommMan) Implement CommMan class.
+d-1. (CommSearch) Implement CommSearch class.
+g-1. Finish JUnit test.

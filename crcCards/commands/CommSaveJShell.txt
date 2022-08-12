@@ -1,0 +1,11 @@
+Class name: CommSaveJShell
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Write the current state of the file system to a file.
+
+Collaborators: 
+* TODO

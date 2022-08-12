@@ -1,0 +1,15 @@
+Class name: CommMkdir
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Create directories.
+
+Collaborators: 
+* FileManager
+* Path
+* PathInterpreter
+* Controller
+* Directory

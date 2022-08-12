@@ -1,0 +1,14 @@
+Class name: CommRm
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Remove a directory from the file system.
+
+Collaborators: 
+* FileManager
+* Path 
+* PathInterpreter
+* Directory

@@ -1,0 +1,18 @@
+Class name: CommEcho
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Pass OUTFILE to PathParser.
+* If OUTFILE does not exist, then create OUTFILE in the current directory.
+* Overwrite OUTFILE with STRING if the input is ">".
+* Append STRING to OUTFILE if the input is ">>".
+
+Collaborators: 
+* PathInterpreter
+* Path
+* File
+* Directory
+* Controller

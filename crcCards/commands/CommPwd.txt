@@ -1,0 +1,11 @@
+Class name: CommPwd
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+*Read and return the path to the current directory(including the whole path).
+
+Collaborators:
+* Controller

@@ -1,0 +1,12 @@
+Class name: CommExit
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Terminate the loop of a given controller.
+* If user inputs paramters other than "exit", abandon the termination process
+
+Collaborators:
+* Controller

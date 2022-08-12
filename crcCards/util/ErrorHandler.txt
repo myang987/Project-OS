@@ -1,0 +1,11 @@
+Class name: ErrorHandler
+
+Parent Class: None
+
+Subclasses: None
+
+Responsibilities: 
+* Resolve error messages thrown by other methods.
+
+Collaborators: 
+* ErrorMessage

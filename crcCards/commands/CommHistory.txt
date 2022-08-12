@@ -1,0 +1,12 @@
+Class name: CommHistory
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Obtain the specified amount of histories of the shell.
+* Pass the obtained information to Controller.
+
+Collaborators:
+* Controller

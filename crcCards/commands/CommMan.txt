@@ -1,0 +1,12 @@
+Class name: CommMan
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Obtain the manual for the specified command.
+
+Collaborators: 
+* AbstractCommand
+* Controller

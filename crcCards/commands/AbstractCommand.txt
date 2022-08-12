@@ -1,0 +1,22 @@
+Class name: AbstractCommand
+
+Parent Class: None
+
+Subclasses: 
+* CommExit
+* CommMkdir
+* CommCd
+* CommLs
+* CommPwd
+* CommCat
+* CommHistory
+* CommEcho
+* CommMan
+* CommPushd
+* CommPopd
+
+Responsibilities: 
+* Serve as a default implementation for any command.
+
+Collaborators:
+* None

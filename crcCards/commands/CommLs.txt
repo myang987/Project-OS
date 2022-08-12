@@ -1,0 +1,15 @@
+Class name: CommLs
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* List the contents of a directory, or print the path to a file.
+
+Collaborators:
+* Path
+* PathInterpreter
+* Directory
+* File
+* Controller

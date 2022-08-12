@@ -1,0 +1,14 @@
+Class name: CommCp
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Copy a file or directory to a new location.
+
+Collaborators: 
+* Directory
+* File
+* Path
+* PathInterpreter

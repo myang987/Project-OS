@@ -1,0 +1,15 @@
+Class name: CommPopd
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+*Remove the top entry from the directory stack, and Cd into it.
+*If there is no directory onto the stack, then return an error message.
+
+Collaborators: 
+* CommCd
+* Controller
+* Path
+* PathInterpreter

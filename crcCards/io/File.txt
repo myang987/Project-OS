@@ -1,0 +1,11 @@
+Class name: File
+
+Parent Class: FolderElement
+
+Subclasses: None
+
+Responsibilities: 
+* Store a string as its contents.
+
+Collaborators:
+* FileEditor

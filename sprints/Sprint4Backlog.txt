@@ -1,0 +1,44 @@
+//Sprint 4 Backlog.  (Assignment 2B)
+November 16 to November 22
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user I can remove a directory by using "rm".									| 1 day
+b) As a user I can create any number of directories by using the mkdir command with a number of paths.			| 1 day
+c) As a user I now can view the contents of all sub-directories of any depth of a directory by using "ls -R" plus a path.		| 2 days
+d) As a user I can move a old file or directory to a new path with "mv".							| 1 day
+e) As a user I can copy a file or directory to a path with "cp".								| 2 days
+f) As a user I can save my current work state by using "saveJShell" and save the state to a file at a specified path.			| 2 days
+g) As a user I can load my work state from a file by using "loadJShell" provided that this is the first command executed on start.	| 1 day
+
+
+
+Specific tasks to be accomplished:
+a-1. (CommRm) Implement CommRm class.
+b-1. (CommMkdir) Implement CommMkdir class(it can now be used to create any number of directories).
+c-1. (CommLs) Modify CommLs class(recursively list all subdirectories when -R is presented).
+d-1. (CommMv) Implement CommMv class.
+e-1. (CommCp) Implement CommCp class.
+f-1. (CommSaveJShell) Implement CommSaveJShell class.
+g-1. (CommLoadJShell) Implement CommLoadJShell class.
+
+These tasks are assigned as follows:
+
+User: Yiyang Zhou
+Tasks:
+f-1. (CommSaveJShell) Implement CommSaveJShell class.
+g-1. (CommLoadJShell) Implement CommLoadJShell class.
+
+
+User: Kuang Ren
+Tasks: 
+a-1. (CommRm) Implement CommRm class.
+b-1. (CommMkdir) Implement CommMkdir class(it can now be used to create any number of directories).
+c-1. (CommLs) Modify CommLs class(recursively list all subdirectories when -R is presented).
+
+
+
+User: Lingfeng Yang
+Tasks: 
+d-1. (CommMv) Implement CommMv class.
+e-1. (CommCp) Implement CommCp class.

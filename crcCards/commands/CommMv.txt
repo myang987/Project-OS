@@ -1,0 +1,14 @@
+Class name: CommMv
+
+Parent Class: AbstractCommand
+
+Subclasses: None
+
+Responsibilities: 
+* Relink a file or directory to another location
+
+Collaborators: 
+* Directory
+* File
+* Path
+* PathInterpreter
